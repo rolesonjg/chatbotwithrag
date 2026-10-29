@@ -1,0 +1,19 @@
+[project]
+name = "general-structured-rag"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+  "pymupdf>=1.24",
+  "langchain-core>=0.3",
+  "langchain-text-splitters>=0.3",
+  "langchain-chroma>=0.2",
+  "langchain-huggingface>=0.1",
+  "langchain-ollama>=0.2",
+  "sentence-transformers>=3.0",
+  "rank-bm25>=0.2",
+  "fastapi>=0.115",
+  "uvicorn[standard]>=0.30",
+  "python-multipart>=0.0.9",
+]
+[tool.uv]
+package = false
